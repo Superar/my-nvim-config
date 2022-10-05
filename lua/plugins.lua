@@ -14,9 +14,6 @@ Plug 'tpope/vim-dispatch'
 Plug 'numToStr/Comment.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'startup-nvim/startup.nvim'
+Plug 'honza/vim-snippets'
 vim.call('plug#end')
 
-require('setup/startup')
-require('setup/vimtex')
-require('setup/gruvbox')
-require('setup/comment')
