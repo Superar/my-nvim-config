@@ -1,0 +1,7 @@
+{
+    "Frame": {
+        "prefix": "frame",
+        "body": ["\\begin{frame}{${1:Title}}", "$0", "\\end{frame}"],
+        "Description": "Create a beamer frame."
+    }
+}
