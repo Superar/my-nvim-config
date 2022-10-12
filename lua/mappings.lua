@@ -13,3 +13,10 @@ vim.keymap.set('n', '<C-n>', '<cmd>NERDTree<cr>')
 vim.keymap.set('n', '<leader>b', '<cmd>NERDTreeToggle<cr>')
 vim.keymap.set('n', '<C-f>', '<cmd>NERDTreeFind<cr>')
 
+-- Autoformat
+vim.keymap.set('n', '<leader>i', '<cmd>Autoformat<cr>')
+
+-- CoC
+vim.keymap.set('v', '<leader>ca', '<Plug>(coc-codeaction-selected)<cr>')
+vim.keymap.set('i', '<C-f>', function() if vim.fn['coc#float#has_scroll']() then return '<C-r>=coc#float#scroll(1)<cr>' else return '<Right>' end end)
+vim.keymap.set('i', '<C-b>', function() if vim.fn['coc#float#has_scroll']() then return '<C-r>=coc#float#scroll(0)<cr>' else return '<Left>' end end)

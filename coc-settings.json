@@ -1,0 +1,5 @@
+{
+    "colors.filetypes": ["*"],
+    "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+    "python.linting.pylintEnabled": true
+}
