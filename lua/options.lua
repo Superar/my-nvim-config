@@ -10,11 +10,10 @@ vim.o.number = true
 vim.o.relativenumber = true -- Use relative numbers
 vim.o.hidden = true -- Keep files open
 vim.o.clipboard = 'unnamedplus'
-
 vim.o.incsearch = true -- Highlight search while writing
 vim.o.hlsearch = false -- Do not highlight search after enter set ignorecase
 vim.o.ignorecase = true
 vim.o.smartcase = true -- If a capital letter is used, use case-sensitive search
-
 vim.o.scrolloff = 8 -- Automatically scroll to keep 8 lines in the bottom
-
+vim.o.termguicolors = true -- Enable highlight
+vim.o.encoding = 'utf8'
