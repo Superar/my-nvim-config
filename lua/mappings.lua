@@ -20,3 +20,7 @@ vim.keymap.set('n', '<leader>i', '<cmd>Autoformat<cr>')
 vim.keymap.set('v', '<leader>ca', '<Plug>(coc-codeaction-selected)<cr>')
 vim.keymap.set('i', '<C-f>', function() if vim.fn['coc#float#has_scroll']() then return '<C-r>=coc#float#scroll(1)<cr>' else return '<Right>' end end)
 vim.keymap.set('i', '<C-b>', function() if vim.fn['coc#float#has_scroll']() then return '<C-r>=coc#float#scroll(0)<cr>' else return '<Left>' end end)
+
+-- Tabular
+vim.keymap.set('n', '<localleader>lae', '<cmd>Tabularize /&<cr>')
+vim.keymap.set('n', '<localleader>la\\', '<cmd>Tabularize /\\\\\\\\/<cr>')

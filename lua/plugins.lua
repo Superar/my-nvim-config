@@ -20,5 +20,6 @@ Plug 'tpope/vim-surround' -- Surround text with ys commands
 Plug 'nvim-lualine/lualine.nvim' -- Bottom status bar
 Plug 'kyazdani42/nvim-web-devicons' -- Icons for the status bar
 Plug 'wellle/targets.vim' -- Enhanced text objects
+Plug 'godlygeek/tabular' -- Align text (specially latex tables)
 vim.call('plug#end')
 
