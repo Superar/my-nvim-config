@@ -22,5 +22,5 @@ vim.keymap.set('i', '<C-f>', function() if vim.fn['coc#float#has_scroll']() then
 vim.keymap.set('i', '<C-b>', function() if vim.fn['coc#float#has_scroll']() then return '<C-r>=coc#float#scroll(0)<cr>' else return '<Left>' end end)
 
 -- Tabular
-vim.keymap.set('n', '<localleader>lae', '<cmd>Tabularize /&<cr>')
-vim.keymap.set('n', '<localleader>la\\', '<cmd>Tabularize /\\\\\\\\/<cr>')
+vim.keymap.set('n', '<localleader>lfe', '<cmd>Tabularize /&<cr>')
+vim.keymap.set('n', '<localleader>lf\\', '<cmd>Tabularize /\\\\\\\\/<cr>')
