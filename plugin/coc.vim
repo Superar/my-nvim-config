@@ -145,6 +145,7 @@ let g:coc_global_extentions = [
         \ 'coc-json',
         \ 'coc-pairs',
         \ 'coc-pyright',
+        \ 'coc-sh',
         \ 'coc-snippets',
         \ 'coc-vimlsp',
         \ 'coc-vimtex'
