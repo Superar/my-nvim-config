@@ -21,5 +21,8 @@ Plug 'nvim-lualine/lualine.nvim' -- Bottom status bar
 Plug 'kyazdani42/nvim-web-devicons' -- Icons for the status bar
 Plug 'wellle/targets.vim' -- Enhanced text objects
 Plug 'godlygeek/tabular' -- Align text (specially latex tables)
+Plug 'mhinz/vim-signify' -- Git line highlights
+Plug 'tpope/vim-fugitive' -- Git integration
+Plug 'tpope/vim-rhubarb' -- Use :GBrowse to go to GitHub page
 vim.call('plug#end')
 
