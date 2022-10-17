@@ -24,5 +24,6 @@ Plug 'godlygeek/tabular' -- Align text (specially latex tables)
 Plug 'mhinz/vim-signify' -- Git line highlights
 Plug 'tpope/vim-fugitive' -- Git integration
 Plug 'tpope/vim-rhubarb' -- Use :GBrowse to go to GitHub page
+Plug('dracula/vim', { ['as'] = 'dracula' }) -- Dracula theme
 vim.call('plug#end')
 
