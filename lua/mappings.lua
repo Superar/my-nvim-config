@@ -28,3 +28,6 @@ vim.keymap.set('n', '<localleader>lf\\', '<cmd>Tabularize /\\\\\\\\/<cr>')
 -- coc-snippets
 vim.keymap.set('v', '<leader>qc', '<Plug>(coc-convert-snippet)')
 vim.keymap.set('v', '<leader>qx', '<Plug>(coc-snippets-select)')
+
+-- Markdown Preview
+vim.keymap.set('n', '<localleader>mv', '<cmd>MarkdownPreviewToggle<cr>')
