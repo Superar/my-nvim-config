@@ -27,5 +27,6 @@ Plug 'tpope/vim-rhubarb' -- Use :GBrowse to go to GitHub page
 Plug('dracula/vim', { ['as'] = 'dracula' }) -- Dracula theme
 Plug('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && yarn install' })
 Plug 'ThePrimeagen/vim-be-good'
+Plug 'tpope/vim-repeat' -- Repeat commands from plugins using .
 vim.call('plug#end')
 
