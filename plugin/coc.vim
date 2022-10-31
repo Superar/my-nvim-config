@@ -144,6 +144,7 @@ let g:coc_global_extentions = [
         \ 'coc-highlight',
         \ 'coc-json',
         \ 'coc-pairs',
+        \ 'coc-prettier',
         \ 'coc-pyright',
         \ 'coc-sh',
         \ 'coc-snippets',

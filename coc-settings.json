@@ -2,5 +2,7 @@
     "colors.filetypes": ["*"],
     "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
     "python.linting.pylintEnabled": true,
-    "snippets.ultisnips.directories": []
+    "snippets.ultisnips.directories": [],
+    "coc.preferences.formatOnSaveFiletypes": ["json"],
+    "prettier.tabWidth": 4
 }
