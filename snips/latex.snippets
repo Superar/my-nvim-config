@@ -44,3 +44,18 @@ snippet frame "Create beamer frame" b
 $0
 \\end{frame}
 endsnippet
+
+snippet dma "Create latex editting command" b
+\\usepackage{ifthen}
+\\usepackage[normalem\]{ulem}
+
+\\newcommand\\orangesout{\\bgroup\\markoverwith{\\textcolor{orange}{\\rule[0.5ex\\]{2pt}{0.4pt}}}\\ULon}%
+\\newcommand{\\ma}[2\]{\\ifthenelse{\\equal{#1}{}}{\\textcolor{orange}{#2}}{\\ifthenelse{\\equal{#2}{}}{\\orangesout{#1}}{\\orangesout{#1} \\textcolor{orange}{#2}}}}%
+% \\renewcommand{\\ma}[2\]{\\textcolor{orange}{#2}}
+% \\renewcommand{\\ma}[2\]{#2}
+
+endsnippet
+
+snippet ma "Insert editting command" bA
+\\ma{${VISUAL}}{$0}
+endsnippet
