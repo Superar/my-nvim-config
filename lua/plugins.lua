@@ -26,7 +26,18 @@ Plug 'tpope/vim-fugitive' -- Git integration
 Plug 'tpope/vim-rhubarb' -- Use :GBrowse to go to GitHub page
 Plug('dracula/vim', { ['as'] = 'dracula' }) -- Dracula theme
 Plug('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && yarn install' })
-Plug 'ThePrimeagen/vim-be-good'
 Plug 'tpope/vim-repeat' -- Repeat commands from plugins using .
+Plug('stsewd/isort.nvim', { ['do'] = ':UpdateRemotePlugins' }) -- Sort python imports
 vim.call('plug#end')
 
+-- Extensions
+vim.g.coc_global_extentions = { 'coc-discord-rpc',
+                                'coc-highlight',
+                                'coc-json',
+                                'coc-pairs',
+                                'coc-prettier',
+                                'coc-pyright',
+                                'coc-sh',
+                                'coc-snippets',
+                                'coc-vimlsp',
+                                'coc-vimtex' }
