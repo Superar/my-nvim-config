@@ -138,16 +138,3 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" Extensions
-let g:coc_global_extentions = [
-        \ 'coc-discord-rpc',
-        \ 'coc-highlight',
-        \ 'coc-json',
-        \ 'coc-pairs',
-        \ 'coc-prettier',
-        \ 'coc-pyright',
-        \ 'coc-sh',
-        \ 'coc-snippets',
-        \ 'coc-vimlsp',
-        \ 'coc-vimtex'
-      \ ]

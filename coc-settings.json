@@ -4,5 +4,6 @@
     "python.linting.pylintEnabled": true,
     "snippets.ultisnips.directories": [],
     "coc.preferences.formatOnSaveFiletypes": ["json"],
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "snippets.ultisnips.pythonPrompt": false
 }
