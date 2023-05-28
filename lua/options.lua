@@ -9,7 +9,6 @@ vim.o.exrc = true -- Run local vimrc file in directories
 vim.o.number = true
 vim.o.relativenumber = true -- Use relative numbers
 vim.o.hidden = true -- Keep files open
-vim.o.clipboard = 'unnamedplus'
 vim.o.incsearch = true -- Highlight search while writing
 vim.o.hlsearch = false -- Do not highlight search after enter set ignorecase
 vim.o.ignorecase = true
