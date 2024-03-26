@@ -17,3 +17,6 @@ vim.o.scrolloff = 8 -- Automatically scroll to keep 8 lines in the bottom
 vim.o.termguicolors = true -- Enable highlight
 vim.o.encoding = 'utf8'
 vim.o.updatetime = 100
+vim.o.colorcolumn = '80'
+
+vim.g.python3_host_prog='/usr/bin/python3'
