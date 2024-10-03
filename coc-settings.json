@@ -1,9 +1,14 @@
 {
-    "colors.filetypes": ["*"],
+    "colors.enable": true,
     "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
     "python.linting.pylintEnabled": true,
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.inlayHints.parameterTypes": false,
+    "pyright.inlayHints.functionReturnTypes": false,
     "snippets.ultisnips.directories": [],
-    "coc.preferences.formatOnSaveFiletypes": ["json"],
     "prettier.tabWidth": 4,
-    "snippets.ultisnips.pythonPrompt": false
+    "snippets.ultisnips.pythonPrompt": false,
+    "[json]": {
+        "coc.preferences.formatOnSave": true
+    }
 }

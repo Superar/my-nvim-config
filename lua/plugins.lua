@@ -25,9 +25,10 @@ Plug 'mhinz/vim-signify' -- Git line highlights
 Plug 'tpope/vim-fugitive' -- Git integration
 Plug 'tpope/vim-rhubarb' -- Use :GBrowse to go to GitHub page
 Plug('dracula/vim', { ['as'] = 'dracula' }) -- Dracula theme
-Plug('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && yarn install' })
+Plug('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && npx --yes yarn install' })
 Plug 'tpope/vim-repeat' -- Repeat commands from plugins using .
 Plug('stsewd/isort.nvim', { ['do'] = ':UpdateRemotePlugins' }) -- Sort python imports
+Plug 'norcalli/nvim-colorizer.lua' -- Show colors in code
 vim.call('plug#end')
 
 -- Extensions
